@@ -1,0 +1,65 @@
+/* ========== ESTILOS GENERALES ========== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-fondo: #f4f6fb;
+    --color-primario: #4b6cb7;
+    --color-secundario: #182848;
+    --color-acento: #f6b4a5;
+    --color-texto: #1f2933;
+    --color-blanco: #ffffff;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    line-height: 1.6;
+}
+
+/* Contenido centrado */
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 1rem 3rem;
+}
+
+/* ========== HEADER ========== */
+
+header {
+    background: linear-gradient(135deg, var(--color-primario), var(--color-secundario));
+    color: var(--color-blanco);
+    text-align: center;
+    padding: 3rem 1rem 2.5rem;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.03em;
+}
+
+header h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    max-width: 700px;
+    margin: 0.5rem auto 1rem;
+}
+
+.autores {
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+/* ========== NAVEGACIÓN ========== */
+
+nav {
+    background-color: var(--color-blanco);
+    border-bottom: 1px solid #e1e4f0;
+    box-shadow: 0 2px 4px rgba(15,
